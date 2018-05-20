@@ -1,0 +1,58 @@
+@font-face {
+    font-family: josefinsans;
+    src: url('/font/josefinsans/JosefinSans-Regular.ttf');
+}
+@font-face {
+    font-family: josefinslab;
+    src: url('/font/josefinslab/JosefinSlab-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+}
+.coffee-image {
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/Coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.french-image{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/French-food.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.macaron-image{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/macaron.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.alcho-image{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/alco.jpg);
+    background-size: cover;
+    height: 450px;
+    background-position: center top;
+}
+.chef-image{
+    background-color: orange;
+}
+.daniel-info{
+    background-color: aqua;
+}
+.about-us{
+    background-color: bisque;
+}
+.local-image{
+    background-color: blueviolet;
+}
+form label{
+    display: none;
+}
