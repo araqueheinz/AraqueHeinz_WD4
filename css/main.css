@@ -6,6 +6,12 @@
     font-family: josefinslab;
     src: url('/font/josefinslab/JosefinSlab-Regular.ttf');
 }
+h2{
+    font-family: josefinsans;
+}
+h3{
+    font-family: josefinslab;
+}
 header{
     background-color:#262F34;
 }
