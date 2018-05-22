@@ -12,6 +12,10 @@ h2{
 h3{
     font-family: josefinslab;
 }
+p{
+    font-family: josefinsans;
+    font-size: 14px;
+}
 header{
     background-color:#262F34;
 }
