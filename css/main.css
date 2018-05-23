@@ -1,6 +1,7 @@
 @font-face {
     font-family: josefinsans;
     src: url('/font/josefinsans/JosefinSans-Regular.ttf');
+    src: url('/font/josefinsans/JosefinSans-Bold.ttf')
 }
 @font-face {
     font-family: josefinslab;
@@ -14,7 +15,13 @@ h3{
 }
 p{
     font-family: josefinsans;
-    font-size: 14px;
+    font-size: 16px;
+}
+a{
+
+    font-family: josefinsans;
+    font-size: 18px;
+    font-weight: bold;
 }
 header{
     background-color:#262F34;
@@ -28,18 +35,30 @@ header::before{
 }
 nav ul{
     text-align: right;
-    margin-right: 1rem;
+    margin-right: 40px;
     margin-bottom: 0;
     padding-bottom: 1rem;
 }
 header div ul{
     margin-top: 1rem;
     text-align: right;
-    margin-right: 1rem;
+    margin-right: 40px;
 }
 
 header div ul p{
     font-size: 12px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F34A4A;
+    border-color:transparent;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #615049;
+    border-color: transparent;
 }
 
 .coffee-image {
@@ -48,17 +67,52 @@ header div ul p{
     background-position: center;
     height: 350px;
 }
+
+.coffee-image a{
+    margin-top: 180px;
+}
+.coffee-image div{
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+.coffee-image div h2{
+    font-size: 16px;
+}
+.coffee-image div h3{
+    font-size: 16px;
+}
 .french-image{
     background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/French-food.jpg);
     background-size: cover;
     height: 350px;
 }
+.french-image div{
+    width: 300px;
+    margin: 50px 0 0 75px;
+}
+.french-image a{
+    margin-top: 53px;
+    margin-right: 40px;
+}
+
 .macaron-image{
     background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/macaron.jpg);
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
    
+}
+
+
+.macaron-image div{
+    width: 300px;
+    margin: 50px 0 0 75px;
+
+}
+.macaron-image a{
+    margin-right: 40px;
+    margin-top: 30px;
 
 }
 .alcho-image{
@@ -67,22 +121,59 @@ header div ul p{
     height: 350px;
     background-position: center top;
 }
+.alcho-image div{
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+.alcho-image div h2{ 
+    font-size: 16px;
+}
+.alcho-image div h3{ 
+    font-size: 16px;
+}
 .chef-image{
     background-image: url(../images/daniel.jpg);
     background-size: cover;
-    height: 350px;
+    height: auto;
     background-position: center top;
 }
+@media (min-width:450px) and (max-width:770px) {
+    .chef-image{
+        height: 350px;
+    }
+}
+
 .daniel-info{
     background-color: #F1D3BC;
+}
+.daniel-info div{
+    width: 350px;
+    margin: 30px 0 0 40px;
+}
+.daniel-info .paragraph{
+    width: auto;
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .about-us{
     background-color: #615049;
 }
+.about-us div{
+    width: 350px;
+    margin: 30px 0 0 40px;
+}
+.about-us .paragraph{
+    width: auto;
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .local-image{
     background-image: url(../images/locale.jpg);
     background-size: cover;
-    height: 350px;
+    height: auto;
     background-position: center top;
 }
 
@@ -111,4 +202,10 @@ button{
     background-color: #F34A4A;
     border: none;
     color: white;
+}
+.formSend{
+    margin-top: 2rem;
+}
+.mapImage{
+    width: 400px;
 }
