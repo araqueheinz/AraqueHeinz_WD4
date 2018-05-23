@@ -7,11 +7,21 @@
     font-family: josefinslab;
     src: url('/font/josefinslab/JosefinSlab-Regular.ttf');
 }
+@font-face{
+    font-family: Edwardian Script ITC;
+    src: url('/font/Edwardian/Edwardian-Script-ITC')
+}
+
 h2{
     font-family: josefinsans;
 }
 h3{
     font-family: josefinslab;
+}
+h4{
+    font-family: josefinsans;
+    font-weight: bold;
+    font-size: 20px;
 }
 p{
     font-family: josefinsans;
@@ -20,8 +30,9 @@ p{
 a{
 
     font-family: josefinsans;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 header{
     background-color:#262F34;
@@ -33,14 +44,25 @@ header::before{
     height: 18px;
     width: 100%;
 }
+h1{
+    font-family: Edwardian Script ITC;
+    font-size: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
 nav ul{
     text-align: right;
     margin-right: 40px;
     margin-bottom: 0;
     padding-bottom: 1rem;
+   
 }
 header div ul{
-    margin-top: 1rem;
+    height: 30px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
     text-align: right;
     margin-right: 40px;
 }
@@ -48,7 +70,9 @@ header div ul{
 header div ul p{
     font-size: 12px;
 }
-
+#logoOrchid{
+    height: 50px;
+}
 .btn-primary {
     color: #fff;
     background-color: #F34A4A;
@@ -103,7 +127,6 @@ header div ul p{
     background-size: cover;
    
 }
-
 
 .macaron-image div{
     width: 300px;
@@ -176,6 +199,11 @@ header div ul p{
     height: auto;
     background-position: center top;
 }
+@media (min-width:450px) and (max-width:770px) {
+    .local-image{
+        height: 350px;
+    }
+}
 
 footer{
     margin-top: 1rem;
@@ -205,7 +233,16 @@ button{
 }
 .formSend{
     margin-top: 2rem;
+    margin-right: 40px;
 }
 .mapImage{
-    width: 400px;
+    width: 395px;
+    margin-bottom: 0.5rem;
 }
+.addressPhone{
+    width: 200px;
+}
+.addressPhone a{
+    margin-bottom: 1rem;
+}
+
