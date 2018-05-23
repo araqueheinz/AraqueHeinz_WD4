@@ -116,7 +116,7 @@ header div ul p{
     margin: 50px 0 0 75px;
 }
 .french-image a{
-    margin-top: 53px;
+    margin-top: 40px;
     margin-right: 40px;
 }
 
@@ -161,7 +161,7 @@ header div ul p{
     height: auto;
     background-position: center top;
 }
-@media (min-width:450px) and (max-width:770px) {
+@media (min-width:250px) and (max-width:770px) {
     .chef-image{
         height: 350px;
     }
@@ -199,7 +199,7 @@ header div ul p{
     height: auto;
     background-position: center top;
 }
-@media (min-width:450px) and (max-width:770px) {
+@media (min-width:250px) and (max-width:770px) {
     .local-image{
         height: 350px;
     }
@@ -236,7 +236,8 @@ button{
     margin-right: 40px;
 }
 .mapImage{
-    width: 395px;
+    height: 370px;
+    width: auto;
     margin-bottom: 0.5rem;
 }
 .addressPhone{
