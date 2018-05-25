@@ -267,3 +267,47 @@ button{
     margin-bottom: 1rem;
 }
 
+.fullPack{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/full.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center top;
+}
+.delivery{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/delivery.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center top;
+}
+.pickup{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6),rgba(1, 1, 1, 0.6)), url(../images/pick.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center top;
+}
+
+.fullPack div, .delivery div, .pickup div{
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 180px;
+    width: 250px;
+}
+.cateringRequest button{
+ margin-top: 2rem;
+}
+.eventInfo input, .payInvoice input{
+margin-bottom: 0.4rem;
+}
+.foodImage{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/Beef.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.foodImage h2{
+    font-family: josefinslab; 
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
