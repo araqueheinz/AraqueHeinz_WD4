@@ -351,6 +351,9 @@ margin-bottom: 0.4rem;
     height: 75px;
 
 }
+.menuList li:first-of-type{
+    background-color: #F34A4A;
+}
 .menuList li:hover{
    background-color: #F34A4A;
 }
@@ -373,4 +376,48 @@ margin-bottom: 0.4rem;
  }
 .footerMenu{
 margin-top: 0;
+}
+.foodList ul{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+.foodList ul li{
+    height: 150px;
+   width: calc(100%/4);
+}
+.food-1{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/food/app-1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.food-2{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/food/app-2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.food-3{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/food/app-3.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.food-4{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/food/app-4.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.food-5{
+    background-image: linear-gradient(rgba(60, 5, 5, 0.5),rgba(1, 1, 1, 0.5)), url(../images/food/app-5.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.foodList ul li:hover{
+    background-color: linear-gradient(rgba(60, 5, 5, 0.0),rgba(1, 1, 1, 0.0));
+   transform: scale(1.5);
 }
